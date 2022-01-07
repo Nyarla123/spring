@@ -104,18 +104,18 @@ public class BoardController {
 			
 			List<Map<String, Object>> result = new ArrayList<>();
 			Map<String, Object> param = new HashMap<>();
-			param.put("GROUP_KEY", "GROUP_KEY");
-			param.put("FILE_KEY", "FILE_KEY");
-			param.put("FILE_REALNAME", "Twenty One Pilots");
-			param.put("FILE_NAME", "2015.05.19");
-			param.put("FILE_PATH", "EP");
-			param.put("FILE_LENGTH", "2");
-			param.put("FILE_TYPE", "Rock");
-			param.put("REG_ID", "2");
-			param.put("REG_DATE", "1");
-			param.put("price", "13000");
-			param.put("downloadCo1unt", "1000");
-			param.put("listenCount", "5000");
+//			param.put("GROUP_KEY", "GROUP_KEY");
+//			param.put("FILE_KEY", "FILE_KEY");
+//			param.put("FILE_REALNAME", "Twenty One Pilots");
+//			param.put("FILE_NAME", "2015.05.19");
+//			param.put("FILE_PATH", "EP");
+//			param.put("FILE_LENGTH", "2");
+//			param.put("FILE_TYPE", "Rock");
+//			param.put("REG_ID", "2");
+//			param.put("REG_DATE", "1");
+//			param.put("price", "13000");
+//			param.put("downloadCo1unt", "1000");
+//			param.put("listenCount", "5000");
 			
 			result = dao.selectList("board.getFiles", param);
 //			System.out.println("result "+ result);
